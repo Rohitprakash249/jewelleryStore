@@ -225,154 +225,6 @@ export default function App() {
 
   return (
     <>
-      {/* <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap');
-
-        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; }
-        body { font-family: 'Jost', sans-serif; background: #FAFAF8; color: #1A1A18; overflow-x: hidden; }
-
-        .serif { font-family: 'Cormorant Garamond', serif; }
-
-        .fade-up {
-          opacity: 0;
-          transform: translateY(40px);
-          transition: opacity 0.8s cubic-bezier(0.16,1,0.3,1), transform 0.8s cubic-bezier(0.16,1,0.3,1);
-        }
-        .fade-up.visible { opacity: 1; transform: translateY(0); }
-        .fade-up.d1 { transition-delay: 0.1s; }
-        .fade-up.d2 { transition-delay: 0.2s; }
-        .fade-up.d3 { transition-delay: 0.3s; }
-        .fade-up.d4 { transition-delay: 0.4s; }
-        .fade-up.d5 { transition-delay: 0.5s; }
-
-        .card-hover {
-          transition: transform 0.4s cubic-bezier(0.16,1,0.3,1), box-shadow 0.4s ease;
-        }
-        .card-hover:hover {
-          transform: translateY(-8px);
-          box-shadow: 0 24px 60px rgba(0,0,0,0.12);
-        }
-
-        .img-zoom img {
-          transition: transform 0.7s cubic-bezier(0.16,1,0.3,1);
-        }
-        .img-zoom:hover img { transform: scale(1.07); }
-
-        .gold-btn {
-          background: linear-gradient(135deg, #C9A84C 0%, #E8C84A 50%, #C9A84C 100%);
-          color: #1A1A18;
-          border: none;
-          cursor: pointer;
-          font-family: 'Jost', sans-serif;
-          font-weight: 500;
-          letter-spacing: 0.12em;
-          text-transform: uppercase;
-          font-size: 12px;
-          transition: all 0.3s ease;
-          background-size: 200% 100%;
-          background-position: 0% 0%;
-        }
-        .gold-btn:hover {
-          background-position: 100% 0%;
-          box-shadow: 0 8px 30px rgba(201,168,76,0.4);
-          transform: translateY(-1px);
-        }
-
-        .outline-btn {
-          background: transparent;
-          color: #1A1A18;
-          border: 1px solid #C9A84C;
-          cursor: pointer;
-          font-family: 'Jost', sans-serif;
-          font-weight: 400;
-          letter-spacing: 0.1em;
-          text-transform: uppercase;
-          font-size: 12px;
-          transition: all 0.3s ease;
-        }
-        .outline-btn:hover {
-          background: #C9A84C;
-          color: #1A1A18;
-        }
-
-        .divider-gold {
-          width: 60px; height: 1px;
-          background: linear-gradient(90deg, transparent, #C9A84C, transparent);
-          margin: 0 auto;
-        }
-
-        .hero-slide { position: absolute; inset: 0; transition: opacity 0.9s ease; }
-
-        .filter-btn {
-          background: transparent;
-          border: 1px solid #DDD;
-          font-family: 'Jost', sans-serif;
-          font-weight: 400;
-          letter-spacing: 0.1em;
-          text-transform: uppercase;
-          font-size: 11px;
-          cursor: pointer;
-          transition: all 0.25s ease;
-          color: #666;
-        }
-        .filter-btn.active, .filter-btn:hover {
-          background: #1A1A18;
-          border-color: #1A1A18;
-          color: #FFF;
-        }
-
-        .star { color: #C9A84C; }
-
-        .newsletter-input {
-          font-family: 'Jost', sans-serif;
-          border: 1px solid #DDD;
-          outline: none;
-          background: #FFF;
-          color: #1A1A18;
-          transition: border-color 0.25s;
-        }
-        .newsletter-input:focus { border-color: #C9A84C; }
-
-        .nav-link {
-          color: inherit;
-          text-decoration: none;
-          font-size: 12px;
-          letter-spacing: 0.12em;
-          text-transform: uppercase;
-          font-weight: 400;
-          position: relative;
-          transition: color 0.2s;
-        }
-        .nav-link::after {
-          content: '';
-          position: absolute;
-          bottom: -3px; left: 0; right: 0;
-          height: 1px;
-          background: #C9A84C;
-          transform: scaleX(0);
-          transition: transform 0.3s ease;
-          transform-origin: left;
-        }
-        .nav-link:hover::after { transform: scaleX(1); }
-        .nav-link:hover { color: #C9A84C; }
-
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: #F8F8F6; }
-        ::-webkit-scrollbar-thumb { background: #C9A84C; border-radius: 3px; }
-
-        @media (max-width: 768px) {
-          .desktop-nav { display: none !important; }
-          .mobile-menu-btn { display: flex !important; }
-          .hero-title { font-size: 3.5rem !important; }
-          .collection-grid { grid-template-columns: repeat(2,1fr) !important; }
-          .cat-grid { grid-template-columns: 1fr !important; }
-          .stats-grid { grid-template-columns: repeat(2,1fr) !important; }
-          .testimonial-grid { grid-template-columns: 1fr !important; }
-          .footer-grid { grid-template-columns: 1fr 1fr !important; }
-        }
-      `}</style> */}
-
       {/* ── NAV ── */}
       <nav
         style={{
@@ -391,7 +243,6 @@ export default function App() {
           transition: "all 0.4s ease",
         }}
       >
-        {/* Logo */}
         <div>
           <div
             className="serif"
@@ -421,7 +272,6 @@ export default function App() {
           </div>
         </div>
 
-        {/* Desktop Nav */}
         <div className="desktop-nav" style={{ display: "flex", gap: "36px" }}>
           {NAV_LINKS.map((l) => (
             <a
@@ -435,11 +285,7 @@ export default function App() {
           ))}
         </div>
 
-        {/* Icons */}
-        <div
-          className=" lg:hidden"
-          // style={{ display: "flex", alignItems: "center", gap: "20px" }}
-        >
+        <div className=" lg:hidden">
           <button
             className="hidden"
             style={{
@@ -509,7 +355,6 @@ export default function App() {
         </div>
       </nav>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <div
           style={{
@@ -543,7 +388,6 @@ export default function App() {
         </div>
       )}
 
-      {/* ── HERO ── */}
       <section
         style={{ position: "relative", height: "100vh", overflow: "hidden" }}
       >
@@ -569,7 +413,6 @@ export default function App() {
           </div>
         ))}
 
-        {/* Content */}
         <div
           style={{
             position: "absolute",
@@ -652,7 +495,6 @@ export default function App() {
           </div>
         </div>
 
-        {/* Slide Dots */}
         <div
           style={{
             position: "absolute",
@@ -680,7 +522,6 @@ export default function App() {
           ))}
         </div>
 
-        {/* Scroll hint */}
         <div
           style={{
             position: "absolute",
@@ -713,7 +554,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* ── MARQUEE STRIP ── */}
       <div
         style={{
           background: "#1A1A18",
@@ -757,7 +597,6 @@ export default function App() {
         </div>
       </div>
 
-      {/* ── CATEGORIES ── */}
       <section
         id="cats"
         ref={registerSection("cats")}
@@ -885,225 +724,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* ── COLLECTIONS ── */}
-      <section
-        id="collections"
-        ref={registerSection("collections")}
-        style={{ padding: "20px 48px 100px", background: "#F8F7F5" }}
-      >
-        <div
-          className={`fade-up ${visibleSections.collections ? "visible" : ""}`}
-          style={{ textAlign: "center", marginBottom: "48px" }}
-        >
-          <p
-            style={{
-              fontSize: "11px",
-              letterSpacing: "0.4em",
-              textTransform: "uppercase",
-              color: "#C9A84C",
-              marginBottom: "12px",
-            }}
-          >
-            Curated Selection
-          </p>
-          <h2
-            className="serif"
-            style={{
-              fontSize: "clamp(2.2rem, 4vw, 3.5rem)",
-              fontWeight: 300,
-              letterSpacing: "0.03em",
-            }}
-          >
-            Featured Pieces
-          </h2>
-          <div
-            className="divider-gold"
-            style={{ marginTop: "20px", marginBottom: "36px" }}
-          />
-
-          <div
-            style={{
-              display: "flex",
-              gap: "10px",
-              justifyContent: "center",
-              flexWrap: "wrap",
-            }}
-          >
-            {filters.map((f) => (
-              <button
-                key={f}
-                className={`filter-btn ${activeFilter === f ? "active" : ""}`}
-                onClick={() => setActiveFilter(f)}
-                style={{ padding: "10px 24px", borderRadius: "2px" }}
-              >
-                {f}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        <div
-          // className="collection-grid"
-          // className=" grid grid-cols-2 grid-rows-2"
-          className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4"
-          style={{
-            display: "grid",
-            // gridTemplateColumns: "repeat(4,1fr)",
-            gap: "20px",
-            maxWidth: "1300px",
-            margin: "0 auto",
-          }}
-        >
-          {filtered.map((item, i) => {
-            const tc = tagColor(item.tag);
-            const isWished = wishlist.includes(item.name);
-            return (
-              <div
-                key={item.name + i}
-                className={`fade-up d${(i % 4) + 1} ${visibleSections.collections ? "visible" : ""} card-hover`}
-                style={{
-                  background: "#FFF",
-                  borderRadius: "4px",
-                  overflow: "hidden",
-                  cursor: "pointer",
-                  border: "1px solid rgba(0,0,0,0.06)",
-                }}
-              >
-                {/* Image */}
-                <div
-                  className="img-zoom"
-                  style={{
-                    position: "relative",
-                    overflow: "hidden",
-                    aspectRatio: "1/1.1",
-                  }}
-                >
-                  <img
-                    src={item.img}
-                    alt={item.name}
-                    style={{
-                      width: "100%",
-                      height: "100%",
-                      objectFit: "cover",
-                    }}
-                  />
-                  {/* Tag */}
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "14px",
-                      left: "14px",
-                      background: tc.bg,
-                      color: tc.color,
-                      border: `1px solid ${tc.border}`,
-                      fontSize: "9px",
-                      letterSpacing: "0.15em",
-                      textTransform: "uppercase",
-                      padding: "4px 10px",
-                      borderRadius: "2px",
-                      fontWeight: 500,
-                    }}
-                  >
-                    {item.tag}
-                  </div>
-                  {/* Wishlist */}
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setWishlist((w) =>
-                        isWished
-                          ? w.filter((n) => n !== item.name)
-                          : [...w, item.name],
-                      );
-                    }}
-                    style={{
-                      position: "absolute",
-                      top: "12px",
-                      right: "12px",
-                      background: "rgba(255,255,255,0.9)",
-                      border: "none",
-                      borderRadius: "50%",
-                      width: 34,
-                      height: 34,
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      cursor: "pointer",
-                      transition: "all 0.2s",
-                    }}
-                  >
-                    <svg
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill={isWished ? "#C9A84C" : "none"}
-                      stroke={isWished ? "#C9A84C" : "#666"}
-                      strokeWidth="1.5"
-                    >
-                      <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
-                    </svg>
-                  </button>
-                </div>
-
-                {/* Info */}
-                <div style={{ padding: "18px 20px 20px" }}>
-                  <div
-                    style={{
-                      fontSize: "9px",
-                      letterSpacing: "0.3em",
-                      textTransform: "uppercase",
-                      color: "#C9A84C",
-                      marginBottom: "6px",
-                    }}
-                  >
-                    {item.cat}
-                  </div>
-                  <h3
-                    style={{
-                      fontSize: "15px",
-                      fontWeight: 500,
-                      marginBottom: "8px",
-                      color: "#1A1A18",
-                    }}
-                  >
-                    {item.name}
-                  </h3>
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "space-between",
-                    }}
-                  >
-                    <span
-                      style={{
-                        fontSize: "14px",
-                        color: "#888",
-                        fontWeight: 300,
-                      }}
-                    >
-                      {item.price}
-                    </span>
-                    <button
-                      className="gold-btn"
-                      style={{
-                        padding: "8px 18px",
-                        borderRadius: "2px",
-                        fontSize: "10px",
-                      }}
-                      onClick={() => setCartCount((c) => c + 1)}
-                    >
-                      Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* ── FEATURE BANNER ── */}
       <section
         style={{
           position: "relative",
@@ -1209,7 +829,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* ── STATS ── */}
       <section
         id="stats"
         ref={registerSection("stats")}
@@ -1693,13 +1312,15 @@ export default function App() {
             Be the first to know about new collections, exclusive events, and
             private sales. Members receive 10% off their first order.
           </p>
+          {/* <div className="flex justify-center w-full"> */}
           <div
-            style={{
-              display: "flex",
-              gap: "0",
-              maxWidth: "460px",
-              margin: "0 auto",
-            }}
+            className="flex sm:gap-0  sm:flex-row flex-col gap-2 m-0"
+            // style={{
+            //   display: "flex",
+            //   gap: "0",
+            //   maxWidth: "460px",
+            //   margin: "0 auto",
+            // }}
           >
             <input
               type="email"
@@ -1725,6 +1346,8 @@ export default function App() {
               Subscribe
             </button>
           </div>
+          {/* </div> */}
+
           <p style={{ fontSize: "11px", color: "#BBB", marginTop: "14px" }}>
             We respect your privacy. Unsubscribe anytime.
           </p>
@@ -1733,19 +1356,7 @@ export default function App() {
 
       {/* ── FOOTER ── */}
       <footer style={{ background: "#111110", padding: "72px 48px 36px" }}>
-        <div
-          className="footer-grid"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "2fr 1fr 1fr 1fr",
-            gap: "60px",
-            maxWidth: "1200px",
-            margin: "0 auto",
-            paddingBottom: "60px",
-            borderBottom: "1px solid rgba(255,255,255,0.08)",
-          }}
-        >
-          {/* Brand */}
+        <div className="lg:pl-20 grid grid-cols-2  gap-10 md:grid-cols-3 lg:grid-cols-4 ">
           <div>
             <div
               className="serif"
@@ -1781,39 +1392,8 @@ export default function App() {
               America's premier fine jewelry destination. Crafting beauty since
               1992 from our New York City atelier.
             </p>
-            <div style={{ display: "flex", gap: "16px", marginTop: "28px" }}>
-              {["IG", "FB", "PT", "TW"].map((s) => (
-                <button
-                  key={s}
-                  style={{
-                    width: 36,
-                    height: 36,
-                    borderRadius: "50%",
-                    background: "rgba(255,255,255,0.06)",
-                    border: "1px solid rgba(255,255,255,0.1)",
-                    color: "rgba(255,255,255,0.5)",
-                    fontSize: "10px",
-                    fontWeight: 500,
-                    cursor: "pointer",
-                    transition: "all 0.2s",
-                    letterSpacing: "0.05em",
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "#C9A84C";
-                    e.currentTarget.style.color = "#1A1A18";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "rgba(255,255,255,0.06)";
-                    e.currentTarget.style.color = "rgba(255,255,255,0.5)";
-                  }}
-                >
-                  {s}
-                </button>
-              ))}
-            </div>
           </div>
 
-          {/* Links */}
           {[
             {
               title: "Collections",
@@ -1935,17 +1515,6 @@ export default function App() {
           </div>
         </div>
       </footer>
-
-      <style>{`
-        @keyframes fadeInUp {
-          from { opacity: 0; transform: translateY(24px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes marquee {
-          from { transform: translateX(0); }
-          to { transform: translateX(-50%); }
-        }
-      `}</style>
     </>
   );
 }
