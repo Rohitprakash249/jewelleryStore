@@ -286,7 +286,7 @@ export default function App() {
         </div>
 
         <div className=" lg:hidden">
-          <button
+          {/* <button
             className="hidden"
             style={{
               background: "none",
@@ -327,7 +327,7 @@ export default function App() {
                 {cartCount}
               </span>
             )}
-          </button>
+          </button> */}
           <button
             className=" mobile-menu-btn"
             style={{
